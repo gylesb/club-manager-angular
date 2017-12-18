@@ -1,3 +1,22 @@
-<p>
-  member-profile works!
-</p>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" routerLink="">FASA sa UW</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a routerLink="about">About</a></li>
+      <li><a routerLink="list-members">Members</a></li>
+    </ul>
+  </div>
+</nav>
+
+<h2>Profile</h2>
+
+<div *ngFor = "let members of Members" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{members.name}}</em></h3><br>
+    <h3><em>{{members.year}}</em></h3><br>
+    <h3><em>{{members.major}}</em></h3><br>
+    <h3><em>{{members.inMajor}}</em></h3><br>
+  </div>
+</div>
