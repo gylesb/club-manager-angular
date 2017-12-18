@@ -8,13 +8,21 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
 import { AboutComponent } from './about/about.component';
 import { ViewUsersComponent } from './view-users/view-users.component';
+import { AdminComponent } from './admin/admin.component';
+import { EditMembersComponent } from './edit-members/edit-members.component';
+import { ListMembersComponent } from './list-members/list-members.component';
+import { MemberProfileComponent } from './member-profile/member-profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     AboutComponent,
-    ViewUsersComponent
+    ViewUsersComponent,
+    AdminComponent,
+    EditMembersComponent,
+    ListMembersComponent,
+    MemberProfileComponent
   ],
   imports: [
     BrowserModule,
