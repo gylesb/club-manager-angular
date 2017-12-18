@@ -1,0 +1,17 @@
+{
+  "name": "club-manager",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Gyles Batara <gyles.batara@live.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
